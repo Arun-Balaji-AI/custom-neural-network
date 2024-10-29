@@ -22,7 +22,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{44dd38b3-6bc3-4336-a87a-494b8ccbbab5}</ProjectGuid>
+    <ProjectGuid>{bc53243b-d100-4cfc-911e-bc2a3aaa2a9c}</ProjectGuid>
     <RootNamespace>NeuralNetwork</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
