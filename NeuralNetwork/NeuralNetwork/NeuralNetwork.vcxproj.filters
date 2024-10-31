@@ -13,5 +13,66 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Layer">
+      <UniqueIdentifier>{a0f36855-4357-4bed-8c94-c9cbcb9f1fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Activation">
+      <UniqueIdentifier>{c2ed8142-189b-4cea-b403-18fb46fcfb87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Optimizer">
+      <UniqueIdentifier>{9de1f1bf-53ec-4060-887f-94b460dc792d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Output">
+      <UniqueIdentifier>{fe7839a1-7b00-4772-940c-9a98ec887476}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DNN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Activation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FullyConnected.h">
+      <Filter>Header Files\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Convolution.h">
+      <Filter>Header Files\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Pooling.h">
+      <Filter>Header Files\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="linear.h">
+      <Filter>Header Files\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="sigmoid.h">
+      <Filter>Header Files\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="softmax.h">
+      <Filter>Header Files\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="tanh.h">
+      <Filter>Header Files\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="relu.h">
+      <Filter>Header Files\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="leakyrelu.h">
+      <Filter>Header Files\Activation</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
